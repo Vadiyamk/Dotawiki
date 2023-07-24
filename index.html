@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dota2(beta)</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="shortcut icon" href="loggo.jpg"/>
+
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__content">
+				<div class="header__logo">
+					<span>DOTA2<span>
+				</div>
+				<nav class="header__menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="cities.html" class="menu__link">
+									Герои
+								</a></li>
+						<li class="menu__item"><a href="tours.html" class="menu__link">
+									Сборки
+								</a></li>
+						<li class="menu__item"><a href="contacts.html" class="menu__link">
+									Обратная связь
+								</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</div>
+	</header>
+	<main class="main">
+		<div class="hello__container">
+			<div class="hello__content">
+				<h1 class="hello__title">DotaWIKI</h1>
+				<p class="hello__text">Полезная информация об игре Dota2</p>
+				<a href="cities.html"><div class="hello__button">Герои</div></a>
+			</div>
+		</div>
+	</main>
+</body>
+<script>
+	if ('serviceWorker' in navigator) {
+	 window.addEventListener('load', function() {  
+	   navigator.serviceWorker.register('/sw.js').then(
+		 function(registration) {
+		   // Registration was successful
+		   console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+		 function(err) {
+		   // registration failed :(
+		   console.log('ServiceWorker registration failed: ', err);
+		 });
+	 });
+	}
+	</script>
+</html>

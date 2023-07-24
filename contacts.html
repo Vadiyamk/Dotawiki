@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Обратная связь</title>
+	<link rel="stylesheet" href="assets/css/contacts.css">
+	<link rel="shortcut icon" href="loggo.jpg"/>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__content">
+				<div class="header__logo">
+					<a href="index.html"><span>DOTA2<span></a>
+				</div>
+				<nav class="header__menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="cities.html" class="menu__link">
+									Герои
+								</a></li>
+						<li class="menu__item"><a href="tours.html" class="menu__link">
+									Сборки
+								</a></li>
+						<li class="menu__item"><a href="contacts.html" class="menu__link">
+									Обратная связь
+								</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</div>
+	</header>
+	<main class="main">
+		<div class="contact__container">
+			<h1 class="contact__title">Контакты</h1>
+			<div class="contact__content">
+				<div class="contact__items">	
+					<div class="contact__info">
+						<h4 class="contact_title">Адрес:</h4>
+						<p class="contact__text">г.Москва ул.Бутлерова д.3</p>
+					</div>
+					<div class="contact__info">
+						<h4 class="contact_title">Время работы:</h4>
+						<p class="contact__text">Пн-Пт: 10:00 - 18:00<br>Сб-Вс: 10:00 - 16:00</p>
+					</div>
+					<div class="contact__info">
+						<h4 class="contact_title">Телефон и e-mail:</h4>
+						<p class="contact__text">+7 (999) 999 99 99<br>Bobizhiv@mail.ru</p>
+					</div>
+				</div>
+				<div class="contact__items">
+					<h4 class="contact_title">Обратная связь с нами</h4>
+					<form action="forma.php" method = "post">
+						<input class="field" type="text" name="name" placeholder="Имя">
+						<input class="field" type="text" name="email" placeholder="Email">
+						<input class="field" type="text" name="message" placeholder="Сообщение">
+						<button class="form__button" type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
