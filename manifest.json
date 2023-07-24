@@ -3,7 +3,7 @@
 "start_url": "/",
 "lang": "ru-RU",
 "display": "standalone",
-"icons": [
+ "icons": [
   {
    "src": "/icons/android-icon-36x36.png",
    "sizes": "36x36",
